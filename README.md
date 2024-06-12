@@ -59,7 +59,30 @@ Cada um desses métodos foi projetado para reforçar diferentes aspectos da prog
 
 ## APS 2
 
-Descrição breve do conteúdo da APS 2, abordando os objetivos e o que foi desenvolvido.
+O objetivo desta Atividade Prática Supervisionada foi praticar estruturas de dados e orientação a objetos em Java. Para isso, foram criadas quatro classes que interagem entre si.
+
+### Classe 1
+
+A classe `Diretor` possui um identificador inteiro que pode ser lido, mas não pode ser modificado por código de outras classes, e deve ser recebido na construção. Além disso, possui um nome que pode ser lido e escrito por código de outras classes, e também deve ser recebido na construção. Os nomes dos atributos e métodos foram definidos pelos testes fornecidos.
+
+### Classe 2
+
+A classe `Episodio` possui um diretor que pode ser lido, mas não pode ser modificado por código de outras classes, e deve ser recebido na construção. Possui um título que pode ser lido, mas não pode ser modificado por código de outras classes, e deve ser recebido na construção. Também possui uma duração inteira, em segundos, que não pode ser lida nem escrita por código de outras classes, e deve ser recebida na construção. A classe possui um método que devolve a duração do episódio em minutos, desconsiderando as casas decimais se a quantidade de minutos não for exata.
+
+### Classe 3
+
+A classe `Temporada` possui um dicionário cujas chaves são números de episódios (inteiros) e cujos valores são episódios. Este dicionário pode ser lido por código de outras classes, mas não pode ser modificado diretamente e deve ser inicializado como vazio. A classe possui um método que recebe um número e um episódio, adicionando ao dicionário um novo item cuja chave é o número recebido e cujo valor é o episódio recebido. Outro método da classe devolve uma string que representa a duração total da temporada no formato "h:mm". Por exemplo:
+- Se os episódios juntos têm um total de 5 minutos, devolve "0:05";
+- Se os episódios juntos têm um total de 30 minutos, devolve "0:30";
+- Se os episódios juntos têm um total de 65 minutos, devolve "1:05";
+- Se os episódios juntos têm um total de 155 minutos, devolve "2:35".
+
+### Classe 4
+
+A classe `Serie` possui uma lista de temporadas que não pode ser lida nem escrita diretamente por código de outras classes e deve ser recebida na construção. A classe possui um método que devolve uma lista de strings que representa as durações de suas temporadas.
+
+Estas quatro classes foram desenvolvidas para reforçar o entendimento e a aplicação de conceitos de orientação a objetos e manipulação de estruturas de dados em Java, conforme os objetivos da APS.
+
 
 ## APS 3
 
