@@ -20,15 +20,15 @@ Nesta atividade, foram desenvolvidos quatro métodos em Java para treinar divers
 
 ### Método 1
 
-O método `verifica` recebia um inteiro positivo e devolvia um booleano que indicava se o número era uma potência de dois. Por exemplo, se recebia 4, devolvia `true`, pois \(4 = 2^2\); se recebia 6, devolvia `false`, pois não existia um inteiro \(k\) tal que \(2^k = 6\). Este método ajudou a entender como manipular e verificar propriedades matemáticas de números utilizando lógica básica de programação.
+O método `verifica` recebia um inteiro positivo e devolvia um booleano que indicava se o número era uma potência de dois. Por exemplo, se recebia 4, devolvia `true`, pois 4 = 2²; se recebia 6, devolvia `false`, pois não existia um inteiro k tal que 2ᵏ = 6. Este método ajudou a entender como manipular e verificar propriedades matemáticas de números utilizando lógica básica de programação.
 
 ### Método 2
 
-O método `aproxima` recebia um inteiro positivo `n` e devolvia uma aproximação do valor de \(\pi\) utilizando a fórmula de Leibniz:
+O método `aproxima` recebia um inteiro positivo `n` e devolvia uma aproximação do valor de π utilizando a fórmula de Leibniz:
 
 \[ \pi = 4 \left(1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \ldots \right) \]
 
-O cálculo considerava apenas as `n` primeiras partes da série. Por exemplo, se recebia 1, devolvia \(4 \left(1 - \frac{1}{3}\right)\); se recebia 2, devolvia \(4 \left(1 - \frac{1}{3} + \frac{1}{5}\right)\). Este método foi um excelente exercício para trabalhar com séries infinitas e entender aproximações numéricas.
+O cálculo considerava apenas as `n` primeiras partes da série. Por exemplo, se recebia 1, devolvia 4(1 - 1/3); se recebia 2, devolvia 4(1 - 1/3 + 1/5). Este método foi um excelente exercício para trabalhar com séries infinitas e entender aproximações numéricas.
 
 ![Fórmula de Leibniz](file-bIYQfjNwDUoAVPt5P3dvif8H)
 
