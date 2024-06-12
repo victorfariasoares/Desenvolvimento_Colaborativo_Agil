@@ -16,7 +16,7 @@ Este repositório contém todas as atividades práticas (APSs) e o projeto desen
 
 ## APS 1
 
-Nesta atividade, foram desenvolvidos quatro métodos em Java para treinar diversos conceitos de programação orientada a objetos. Cada método abordou um aspecto específico da linguagem, com o objetivo de reforçar a compreensão e a aplicação prática dos conceitos estudados em aula.
+Nesta atividade, foram desenvolvidos quatro métodos em Java para treinar conceitos iniciais de programação na linguagem. Cada método abordou um aspecto específico da linguagem, com o objetivo de reforçar a compreensão e a aplicação prática dos conceitos estudados em aula.
 
 ### Método 1
 
