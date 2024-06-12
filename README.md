@@ -86,12 +86,49 @@ Estas quatro classes foram desenvolvidas para reforçar o entendimento e a aplic
 
 ## APS 3
 
-Descrição breve do conteúdo da APS 3, abordando os objetivos e o que foi desenvolvido.
+O objetivo desta Atividade Prática Supervisionada foi praticar modelagem e herança em Java. A atividade foi dividida em três tarefas: desenhar um diagrama de classes a partir de um código, implementar um mini-sistema e implementar testes para esse mini-sistema.
+
+### Tarefa 1
+
+Nesta tarefa, foi necessário desenhar o diagrama de classes do projeto banco. O diagrama deveria representar:
+
+- Classes
+- Atributos
+- Métodos
+- Associações
+- Agregações
+- Extensões
+
+Os métodos privados, getters, setters e construtores foram omitidos. Métodos foram escritos apenas na superclasse mais alta que os define e não foram escritos em subclasses, mesmo que as sobrescrevessem.
+
+### Tarefa 2
+
+Nesta tarefa, foi necessário implementar uma parte da arquitetura básica da plataforma fictícia `fifthfloor`, projetada para conectar interessados em imóveis com proprietários. A implementação envolveu a criação e implementação de 5 diferentes classes.
+
+### Tarefa 3
+
+A tarefa 3 consistia em verificar o funcionamento das classes desenvolvidas acima através da criação de testes específicos das classes e dos métodos.
+
 
 ## APS 4
 
-Descrição breve do conteúdo da APS 4, abordando os objetivos e o que foi desenvolvido.
+O objetivo desta Atividade Prática Supervisionada foi praticar refatoração de arquitetura, conhecer boas práticas de controle de versão e passar pela experiência de modificar um código escrito há muito tempo atrás.
 
+O primeiro passo foi escolher qual projeto final do curso de Design de Software (1º Semestre) seria refatorado.
+
+### Oportunidade de Abstração
+
+Uma oportunidade de abstração deveria ser identificada no projeto escolhido. A abstração envolvia a criação de uma superclasse ou interface para generalizar comportamentos comuns entre classes diferentes. Isso permite reduzir a duplicação de código, facilitar a manutenção e a evolução do sistema. Durante a refatoração, os métodos e atributos comuns foram extraídos para a superclasse ou interface, garantindo que as subclasses específicas implementassem apenas os comportamentos particulares a elas.
+
+### Oportunidade de Coesão
+
+Também foi identificada uma oportunidade de melhorar a coesão no projeto. A coesão refere-se ao grau em que os elementos de um módulo pertencem juntos. Um módulo coeso tem um único objetivo ou responsabilidade, facilitando a compreensão e a manutenção do código. Durante a refatoração, foram feitas alterações para garantir que cada classe ou módulo tivesse uma única responsabilidade clara, e que métodos e atributos relacionados estivessem juntos dentro da mesma classe.
+
+### Controle de Versão
+
+Durante todo o processo de refatoração, boas práticas de controle de versão foram seguidas. Isso incluiu o uso de commits atômicos, a escrita de mensagens de commit descritivas e a realização de code reviews entre os membros do grupo. O uso adequado de branches para desenvolvimento, teste e integração também foi implementado, garantindo que o histórico do projeto permanecesse claro e organizado.
+
+Esta APS foi projetada para reforçar as habilidades de refatoração de código, melhorar a compreensão das boas práticas de controle de versão e proporcionar uma experiência prática na modificação de um código existente, conforme os objetivos do curso.
 ## APS 5
 
 Descrição breve do conteúdo da APS 5, abordando os objetivos e o que foi desenvolvido.
