@@ -28,7 +28,10 @@ O método `aproxima` recebia um inteiro positivo `n` e devolvia uma aproximaçã
 
 $$ \pi = 4 \left(1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} + \ldots \right) $$
 
-O cálculo considerava apenas as `n` primeiras partes da série. Por exemplo, se recebia 1, devolvia \( 4 \left(1 - \frac{1}{3} \right) \); se recebia 2, devolvia \( 4 \left(1 - \frac{1}{3} + \frac{1}{5} \right) \). Este método foi um excelente exercício para trabalhar com séries infinitas e entender aproximações numéricas.
+O cálculo considerava apenas as `n` primeiras partes da série. Por exemplo, se recebia 1, devolvia $$
+4 \cdot \left( 1 - \frac{1}{3} \right)
+$$
+; se recebia 2, devolvia \( 4 \left(1 - \frac{1}{3} + \frac{1}{5} \right) \). Este método foi um excelente exercício para trabalhar com séries infinitas e entender aproximações numéricas.
 
 
 ### Método 3
