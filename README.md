@@ -112,30 +112,58 @@ A tarefa 3 consistia em verificar o funcionamento das classes desenvolvidas acim
 
 ## APS 4
 
-O objetivo desta Atividade Prática Supervisionada foi praticar refatoração de arquitetura, conhecer boas práticas de controle de versão e passar pela experiência de modificar um código escrito há muito tempo atrás.
+O objetivo desta Atividade Prática Supervisionada foi praticar refatoração de arquitetura identificando pelo menos uma oportunidade de abstração e uma de coesão, conhecer boas práticas de controle de versão e passar pela experiência de modificar um código escrito há muito tempo atrás.
 
-O primeiro passo foi escolher qual projeto final do curso de Design de Software (1º Semestre) seria refatorado.
-
-### Oportunidade de Abstração
-
-Uma oportunidade de abstração deveria ser identificada no projeto escolhido. A abstração envolvia a criação de uma superclasse ou interface para generalizar comportamentos comuns entre classes diferentes. Isso permite reduzir a duplicação de código, facilitar a manutenção e a evolução do sistema. Durante a refatoração, os métodos e atributos comuns foram extraídos para a superclasse ou interface, garantindo que as subclasses específicas implementassem apenas os comportamentos particulares a elas.
-
-### Oportunidade de Coesão
-
-Também foi identificada uma oportunidade de melhorar a coesão no projeto. A coesão refere-se ao grau em que os elementos de um módulo pertencem juntos. Um módulo coeso tem um único objetivo ou responsabilidade, facilitando a compreensão e a manutenção do código. Durante a refatoração, foram feitas alterações para garantir que cada classe ou módulo tivesse uma única responsabilidade clara, e que métodos e atributos relacionados estivessem juntos dentro da mesma classe.
-
-### Controle de Versão
-
-Durante todo o processo de refatoração, boas práticas de controle de versão foram seguidas. Isso incluiu o uso de commits atômicos, a escrita de mensagens de commit descritivas e a realização de code reviews entre os membros do grupo. O uso adequado de branches para desenvolvimento, teste e integração também foi implementado, garantindo que o histórico do projeto permanecesse claro e organizado.
-
-Esta APS foi projetada para reforçar as habilidades de refatoração de código, melhorar a compreensão das boas práticas de controle de versão e proporcionar uma experiência prática na modificação de um código existente, conforme os objetivos do curso.
 ## APS 5
 
-Descrição breve do conteúdo da APS 5, abordando os objetivos e o que foi desenvolvido.
+O objetivo desta Atividade Prática Supervisionada foi praticar tudo o que foi visto até a Aula 10 (exceções), exceto a Aula 9 (interfaces). Para isso, foram realizadas quatro tarefas: desenhar um diagrama de classes a partir de um código, implementar um mini-sistema, implementar testes para esse mini-sistema e refatorar um código existente.
+
+### Tarefa 1
+
+Nesta tarefa, foi necessário desenhar o diagrama de classes do projeto `ìmovel`. O diagrama deveria representar:
+
+- Classes
+- Atributos
+- Métodos
+- Associações
+- Agregações
+- Extensões
+
+Os métodos privados, getters, setters e construtores foram omitidos. Métodos foram escritos apenas na superclasse mais alta que os define e não foram escritos em subclasses, mesmo que as sobrescrevessem.
+
+### Tarefa 2
+
+Nesta tarefa, foi necessário implementar uma parte da arquitetura básica da plataforma `copa`, projetada para simular campeonatos de futebol. A implementação envolveu a criação e implementação de 5 diferentes classes.
+
+### Tarefa 3
+
+A tarefa 3 consistia em verificar o funcionamento das classes desenvolvidas acima através da criação de testes específicos das classes e dos métodos.
+
+### Tarefa 4
+Nesta tarefa, foi necessário abrir o projeto hercules e fazer um pull request para o repositório, identificando e aproveitando uma oportunidade de abstração ou uma oportunidade de melhorar a coesão no projeto.
+
 
 ## APS 6
 
-Descrição breve do conteúdo da APS 6, abordando os objetivos e o que foi desenvolvido.
+O objetivo desta Atividade Prática Supervisionada foi praticar Web API e DAO. Para isso, foram realizadas quatro partes: entender o código existente, preparar a infraestrutura, popular o banco de dados e criar a API.
+
+### Parte 1: Entender Código Existente
+
+A primeira parte da atividade consistiu em entender o código existente fornecido como base para o projeto. Esse código incluía a estrutura inicial do servidor, a configuração do banco de dados e alguns exemplos de operações básicas de CRUD (Create, Read, Update, Delete).
+
+### Parte 2: Preparar a Infraestrutura
+
+Na segunda parte, foi necessário preparar a infraestrutura do projeto. Isso envolveu configurar o servidor web e o banco de dados. A configuração do servidor incluiu a definição das rotas e endpoints que seriam expostos pela API.
+
+### Parte 3: Popular o Banco
+
+A terceira parte da atividade consistiu em popular o banco de dados com dados de teste. Isso foi feito para garantir que a API tivesse dados para manipular e retornar nas requisições. Scripts foram criados para inserir dados iniciais nas tabelas, permitindo simular um ambiente realista para testes e desenvolvimento.
+
+### Parte 4: Criar a API
+
+Na última parte, foi criada a API REST. Esta etapa envolveu a implementação dos endpoints para realizar as operações de CRUD no banco de dados. Cada endpoint foi projetado para manipular um recurso específico e realizar as operações necessárias, como criar, ler, atualizar e deletar registros. Foram utilizados padrões de design e boas práticas de desenvolvimento de APIs, como tratamento de erros, validação de dados e uso adequado dos códigos de status HTTP.
+
+Esta APS foi projetada para reforçar os conceitos de desenvolvimento de Web APIs e integração com banco de dados, proporcionando uma experiência prática na criação de um servidor REST completo e funcional, conforme os objetivos do curso.
 
 ## Projeto Final
 
