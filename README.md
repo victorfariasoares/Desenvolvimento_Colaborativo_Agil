@@ -161,14 +161,4 @@ A terceira parte da atividade consistiu em popular o banco de dados com dados de
 
 ### Parte 4: Criar a API
 
-Na última parte, foi criada a API REST. Esta etapa envolveu a implementação dos endpoints para realizar as operações de CRUD no banco de dados. Cada endpoint foi projetado para manipular um recurso específico e realizar as operações necessárias, como criar, ler, atualizar e deletar registros. Foram utilizados padrões de design e boas práticas de desenvolvimento de APIs, como tratamento de erros, validação de dados e uso adequado dos códigos de status HTTP.
-
-Esta APS foi projetada para reforçar os conceitos de desenvolvimento de Web APIs e integração com banco de dados, proporcionando uma experiência prática na criação de um servidor REST completo e funcional, conforme os objetivos do curso.
-
-## Projeto Final
-
-Descrição breve do conteúdo do projeto final, abordando os objetivos, as tecnologias utilizadas, as funcionalidades desenvolvidas e os resultados alcançados.
-
----
-
-Esse esqueleto dá uma visão clara e organizada das atividades práticas e do projeto final desenvolvidos no curso de Desenvolvimento Colaborativo Ágil. Se precisar de descrições específicas para cada APS ou para o projeto final, forneça os detalhes e eu as adicionarei conforme necessário.
+Na última parte, foi criada a API REST. Esta etapa envolveu a implementação dos endpoints para realizar as operações de CRUD no banco de dados. Cada endpoint foi projetado para manipular um recurso específico e realizar as operações necessárias, como criar, ler, atualizar e deletar.
