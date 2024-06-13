@@ -120,7 +120,7 @@ O objetivo desta Atividade Prática Supervisionada foi praticar tudo o que foi v
 
 ### Tarefa 1
 
-Nesta tarefa, foi necessário desenhar o diagrama de classes do projeto `ìmovel`. O diagrama deveria representar:
+Nesta tarefa, foi necessário desenhar o diagrama de classes do projeto `imovel`. O diagrama deveria representar:
 
 - Classes
 - Atributos
