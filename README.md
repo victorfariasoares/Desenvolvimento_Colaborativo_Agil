@@ -12,7 +12,6 @@ Este repositório contém todas as atividades práticas (APSs) e o projeto desen
 - [APS 4](#aps-4)
 - [APS 5](#aps-5)
 - [APS 6](#aps-6)
-- [Projeto Final](#projeto-final)
 
 ## APS 1
 
